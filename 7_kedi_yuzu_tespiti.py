@@ -1,6 +1,6 @@
 import cv2
 import os
-import random
+from random import randint
 
 files = os.listdir()
 print(files)
